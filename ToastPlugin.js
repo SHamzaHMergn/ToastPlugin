@@ -7,6 +7,4 @@ var ToastPlugin = {
 };
 
 
-if (typeof window !== undefined) {
-    (window).ToastPlugin = ToastPlugin;
-}
+module.exports = ToastPlugin;
